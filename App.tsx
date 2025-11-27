@@ -17,7 +17,11 @@ export default function App() {
         <Text style={{ color: 'white', fontSize: 20 }}>+1</Text>
       </Pressable> */}
 
-      <FAB label='+1' />
+      <FAB
+        label='+1'
+        onPress={() => setCount(count + 1)}
+        onLongPress={() => setCount(0)}
+      />
       <StatusBar style='auto' />
     </View>
   );
