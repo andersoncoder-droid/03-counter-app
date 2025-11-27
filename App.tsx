@@ -21,8 +21,9 @@ export default function App() {
         label='+1'
         onPress={() => setCount(count + 1)}
         onLongPress={() => setCount(0)}
-        position='left'
+        position='right'
       />
+      <FAB label='Reset' onPress={() => setCount(0)} position='left' />
       <StatusBar style='auto' />
     </View>
   );

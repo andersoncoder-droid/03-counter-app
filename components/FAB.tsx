@@ -21,7 +21,7 @@ export default function FAB({
       style={({ pressed }) => [
         styles.floatingButton,
         position === 'right' ? styles.positionRight : styles.positionLeft,
-        pressed ? { opacity: 0.5 } : { opacity: 1 },
+        pressed ? { opacity: 0.7 } : { opacity: 1 },
       ]}
       onPress={onPress}
       onLongPress={onLongPress}
